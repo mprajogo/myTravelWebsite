@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 20px 0;
+   
+}
+
+header img{
+    width: 100%;
+}
+
+nav{
+    text-align: center;
+    background-color: pink;
+    font-size: 150%;
+    padding: 1rem;  
+
+}
+ blockquote{
+     text-align: center;
+ }
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: palegoldenrod;
+    color: brown;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    margin-left: 50px;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.stories{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.col img{
+    width: 100%;
+    opacity: 0.8;
+}
+
+article{
+    display: inline-block;
+    width: 30%;
+    margin: 20px 10px 20px 10px;
+    box-shadow: 10px 10px pink;
+    border: 3px solid rgb(219, 219, 219);
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: lavender;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+label{
+    display: block;
+    margin: 10px 5px;
+}
+
+legend{
+    display: none;
+}
+
+fieldset{
+    border: none;
+}
+
+input, textarea, select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid grey;
+
+}
+
+#comment{
+    height: 200px;
+}
+
+#submit{
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+}
+
+#submit:hover{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
